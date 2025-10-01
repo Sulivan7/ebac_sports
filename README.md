@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+# 🏆 EBAC Sports
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma aplicação de e-commerce esportivo moderna e responsiva, desenvolvida com React, TypeScript e Redux Toolkit. O projeto oferece uma experiência completa de compras online com carrinho de compras e sistema de favoritos.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)
+![Redux](https://img.shields.io/badge/Redux%20Toolkit-2.9.0-purple)
+![Styled Components](https://img.shields.io/badge/Styled%20Components-5.3.6-pink)
 
-In the project directory, you can run:
+## 🎯 Sobre o Projeto
 
-### `npm start`
+O **EBAC Sports** é uma loja virtual especializada em artigos esportivos, desenvolvida como projeto do curso da EBAC. A aplicação permite aos usuários navegar por uma variedade de produtos esportivos, adicionar itens ao carrinho e gerenciar uma lista de favoritos, tudo com uma interface moderna e intuitiva.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Como Executar
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Pré-requisitos
+- **Node.js** (versão 16 ou superior)
+- **npm** ou **yarn**
 
-### `npm test`
+### Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/Sulivan7/ebac_sports.git
+   ```
 
-### `npm run build`
+2. **Navegue para o diretório**
+   ```bash
+   cd ebac_sports
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Instale as dependências**
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Execute a aplicação**
+   ```bash
+   npm start
+   # ou
+   yarn start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Acesse no navegador**
+   ```
+   http://localhost:3000
+   ```
 
-### `npm run eject`
+## 📂 Estrutura do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+📦 ebac_sports
+├── 📁 public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── 📁 src/
+│   ├── 📁 components/
+│   │   ├── Header/
+│   │   └── Produto/
+│   ├── 📁 containers/
+│   │   └── Produtos.tsx
+│   ├── 📁 services/
+│   │   └── api.ts
+│   ├── 📁 store/
+│   │   ├── index.ts
+│   │   └── reducers/
+│   │       ├── carrinho.ts
+│   │       └── favoritos.ts
+│   ├── 📁 styles/
+│   ├── 📁 assets/
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── types.ts
+└── package.json
+```
